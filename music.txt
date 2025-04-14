@@ -142,13 +142,15 @@ if not isfile("GelatekHub/Scripts/Carnage.mp3") then
 	warn("[i_forgot_carnage_song_name_help] Downloaded! 25/"..tostring(HowMuch))
 end
 
-if not isfile("GelatekHub/Animations/Desert_Beat_2.ogg") then
+if not isfile("GelatekHub/Animations/Desert_Beat_2.mp3") then
         writefile("GelatekHub/Animations/Desert_Beat_2.ogg", game:HttpGet("https://github.com/albeiro34210/musics-pack/blob/main/Desert_Beat_2.ogg?raw=true"))
         warn("Desert_Beat_2 Downloaded! 26/"..tostring(HowMuch))
+end
 
 if not isfile("GelatekHub/Animations/fear.ogg") then
         writefile("GelatekHub/Animations/fear.ogg", game:HttpGet("https://github.com/albeiro34210/musics-pack/blob/main/fear.ogg?raw=true"))
         warn("fear Downloaded! 27/"..tostring(HowMuch))
+end
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "Notification",
